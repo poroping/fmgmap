@@ -13,8 +13,9 @@ Because the built-in map display is per-ADOM.
    Create a read-only API user with permissions to all ADOMs on your FortiManager and API access
    At minimum needs an admin profile with read-only permissions for Add/Delete/Edit Devices/Groups  
 
-##### Clone repo
+##### Clone repo and build
 ```
+git clone https://github.com/poroping/fmgmap.git
 cd ./fmgmap
 docker build -t fmgmap .
 ```
